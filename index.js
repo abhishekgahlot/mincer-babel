@@ -48,7 +48,7 @@ module.exports = function addBabelEngine(Mincer, babel) {
 		// context.dependOn(file2);
 	};
 
-	Mincer.registerEngine('.es6', Mincer.BabelEngine);
+	Mincer.registerEngine('.js', Mincer.BabelEngine);
 
 	prop(Mincer.BabelEngine, 'defaultMimeType', 'application/javascript');
 };
